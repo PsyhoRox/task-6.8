@@ -1,0 +1,104 @@
+@import url(./header.css);
+@font-face { 
+    font-family: 'TTlakes';
+    src: url('../fonts/TTLakes-Regular.woff') format('woff');
+}
+
+:root {
+    --primary--pink: #FF3E79;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body  {
+    font-family: 'TTlakes'; 
+}
+/* нав */
+.services__container{
+    display: inline-flex;
+    height: 40px;
+    align-items: center;
+    padding-top: 24px;
+    gap: 12px;
+}
+.services__highlight{
+    height: 40px;
+    border-left: 4px solid #41F6D7;
+}
+.services__name {
+    font-size: 28px;
+}
+
+.nav__container {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-left: 16px
+}
+
+.nav__list li {
+    list-style-type: none;
+}
+
+.nav__item {
+    margin: 0;
+    padding: 0;
+}
+.nav__btn {
+    background-color: transparent;
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    padding: 8px 10px;
+    margin: 0;
+    white-space: nowrap;
+    border: none;
+}
+
+.nav__btn:focus{
+    border-radius: 6px;
+    outline: 2px solid #B8FFEC;
+    
+}
+/* Контент */
+.content{
+    display: flex;
+    height: auto;
+}
+.content__main{
+    margin:24px 16px;
+    height: 90px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.content__main--text {
+    font-size: 14px;
+}
+
+/* .content__main--icon {
+    align-items: center;
+    background-image: url(../img/arrow.svg);
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+}   
+.content__main--inf{
+    display: block; */
+}
