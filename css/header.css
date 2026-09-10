@@ -1,37 +1,33 @@
+
 .header{
+    display: block;
     width: 100%;
     background-color: #fff;
 }
 .header__container{
     display: flex;
     width: 100%;
-    height: 88px;
+    min-height: 88px;
     align-items: center;
     justify-content: space-between;
+    padding: 0 16px;
 }
-.header__right {
+.header__right, .header__left {
     display: flex;
     gap: 16px;
     align-items: center;
     padding: 0 16px 0;
-}
-
-.header__left {
-    display: flex;
-    gap: 26px;
-    padding: 0 16px 0;
-    align-items: center;
 }
 .header__btn{
     position: relative;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin: auto;
     border: none;
     background-position: center;
     background-repeat: no-repeat;
     background-color: var(--primary--pink);
+    cursor: pointer;
 }
 .header__btn--burger{
     background-image: url(../img/icon.svg);
@@ -42,15 +38,38 @@
 .header__btn--status{
     background-image: url(../img/status.svg);
 }
+.header__btn--call{
+    background-image: url(../img/call.svg);
+    display: none; 
+}
+.header__btn--write{
+    background-image: url(../img/write.svg);
+    display: none; 
+}
+.header__btn--profile{
+    background-image: url(../img/profile.svg);
+    display: none; 
+}
 
 .header__logo{
+    display: block;
     background-image: url(../img/logo.svg);
     width: 97px;
     height: 51px;
     background-repeat: no-repeat;
 }
-.header__line{
+.header__line {
+    display: block;
     height: 32px;
     border-left: 2px solid #EAEAEA;
     opacity: 0.4;
+    flex-shrink: 0;
 }
+.header__line--tablet {
+    display: none;
+    height: 32px;
+    border-left: 2px solid #EAEAEA;
+    opacity: 0.4;
+    flex-shrink: 0;
+}
+

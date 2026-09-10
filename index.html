@@ -16,35 +16,63 @@
                 <a href="" class="header__logo"></a></div>
                 <span class="header__line"></span>
             <div class="header__right">
-                <button class="header__btn  header__btn--repair"></button>
-                <button class="header__btn  header__btn--status"></button>
+                <button class="header__btn header__btn--call"></button>
+                <button class="header__btn header__btn--write"></button>
+                <button class="header__btn header__btn--profile"></button>
+                <span class="header__line--tablet"></span>
+                <button class="header__btn header__btn--repair"></button>
+                <button class="header__btn header__btn--status"></button>
             </div> 
         </div>
     </header>
-    <main>
+    <main class="main-container">
     <!-- заголовок -->
         <div class="services__container">
             <span class="services__highlight"></span>
             <h1 class="services__name">Услуги и сервисы</h1>
+            <button class="services__right">
+                <span class="services__right__text">Оставить заявку</span>
+            <span class="header__btn header__btn--repair"></span>
+        </button>
+            <button class="services__right">
+                <span class="services__right__text">Статус ремонта</span>
+            <span class="header__btn header__btn--status"></span>
+        </button>
         </div>
     <!-- Навигация -->
         <nav class="nav__container">
             <ul class="nav__list">
                 <li class="nav__item">
-                    <button class="nav__btn">Ремонтируемые устройства</button>
+                    <button class="nav__btn nav__btn--focus ">Ремонтируемые бренды</button>
                 </li>
                 <li class="nav__item">
                     <button class="nav__btn">Ремонтируемые устройства</button>
                 </li>
+                <li class="nav__item">
+                    <button class="nav__btn">Цены на услуги</button>
+                </li>
+                <li class="nav__item">
+                    <button class="nav__btn">Адреса сервисных центров</button>
+                </li>
+                <li class="nav__item">
+                    <button class="nav__btn">Специальные цены</button>
+                </li>
+                <li class="nav__item">
+                    <button class="nav__btn">Отзывы</button>
+                </li>
                 </ul>
         </nav>
         <!-- Контент -->
-        <content class="content">
+        <section class="content">
             <div class="content__main">
-                <span class="content__main--text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</span>
-                <span class="content__main--icon"><a href="" class="content__main--inf">Читать далее</a></span>
+                <p class="content__main--text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя. Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+                                       <button class="content__main--inf">Читать далее</button>
+                                       </div>
+            <div class="content__main__post">
+                <img class="content__main__post--item" src="./img/post1.svg">
             </div>
-        </content>
+        
+        </section>
     </main>
 </body>
 </html>
