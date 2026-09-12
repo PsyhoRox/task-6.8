@@ -1,4 +1,5 @@
 @import url(./header.css);
+@import url(./menu.css);
 @font-face { 
     font-family: 'TTlakes';
     src: url('../fonts/TTLakes-Regular.woff') format('woff');
