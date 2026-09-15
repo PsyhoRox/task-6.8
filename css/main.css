@@ -1,12 +1,12 @@
-@import url(./header.css);
-@import url(./menu.css);
+@import url(/header.css);
+@import url(/menu.css);
 @font-face { 
     font-family: 'TTlakes';
-    src: url('../fonts/TTLakes-Regular.woff') format('woff');
+    src: url('/fonts/TTLakes-Regular.woff') format('woff');
 }
 
 :root {
-    --primary--pink: #FF3E79;
+    --primary--pink: #ff3e79;
 }
 
 * {
@@ -127,7 +127,7 @@ body  {
     display: inline-block;
     content:'';
     width: 24px;
-    background-image: url(../img/arrow.svg);
+    background-image: url(/img/arrow.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
