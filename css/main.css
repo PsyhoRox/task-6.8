@@ -1,8 +1,8 @@
-@import url(task-6.8/css/header.css);
-@import url(task-6.8/css/menu.css);
+@import url(/css/header.css);
+@import url(/css/menu.css);
 @font-face { 
     font-family: 'TTlakes';
-    src: url('task-6.8/fonts/TTLakes-Regular.woff') format('woff');
+    src: url('/fonts/TTLakes-Regular.woff') format('woff');
 }
 
 :root {
@@ -127,7 +127,7 @@ body  {
     display: inline-block;
     content:'';
     width: 24px;
-    background-image: url(task-6.8/img/arrow.svg);
+    background-image: url(/img/arrow.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
