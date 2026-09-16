@@ -33,7 +33,7 @@ button[class^="menu__btn"]:is(:hover, :focus, :active) {
 }
 
 .menu__btn--close {
-    background-image: url(../imgclose.svg);
+    background-image: url(../img/close.svg);
 }
 .menu__btn--search {
     background-image: url(../img/search.svg);

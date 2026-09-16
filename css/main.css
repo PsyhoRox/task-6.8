@@ -133,7 +133,7 @@ body  {
     display: inline-block;
     content:'';
     width: 24px;
-    background-image: url(img/arrow.svg);
+    background-image: url(../img/arrow.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
