@@ -33,27 +33,27 @@ button[class^="menu__btn"]:is(:hover, :focus, :active) {
 }
 
 .menu__btn--close {
-    background-image: url(/img/close.svg);
+    background-image: url(img//close.svg);
 }
 .menu__btn--search {
-    background-image: url(/img/search.svg);
+    background-image: url(img//search.svg);
     margin-left: auto;
 }
 .menu__btn--call {
-    background-image: url(/img/call.svg);
+    background-image: url(img//call.svg);
     margin-left: auto;
 }
 .menu__btn--write {
-    background-image: url(/img/write.svg);
+    background-image: url(img//write.svg);
     margin-left: auto;g
 }
 .menu__btn--profile {
-    background-image: url(/img/profile.svg);
+    background-image: url(img//profile.svg);
     margin-left: auto;
 }
 .menu__header__logo {
     display: block;
-    background-image: url(/img/logo.svg);
+    background-image: url(img//logo.svg);
     width: 97px;
     height: 51px;
     background-repeat: no-repeat;

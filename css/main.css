@@ -1,8 +1,8 @@
-@import url(/css/header.css);
-@import url(/css/menu.css);
+/* @import url(/css/header.css);
+@import url(/css/menu.css); */
 @font-face { 
     font-family: 'TTlakes';
-    src: url('/fonts/TTLakes-Regular.woff') format('woff');
+    src: url('fonts/TTLakes-Regular.woff') format('woff');
 }
 
 :root {
