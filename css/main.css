@@ -86,12 +86,18 @@ body  {
     margin: 0;
     white-space: nowrap;
     border: none;
+    cursor: pointer;
 }
 
-.nav__btn--focus{
+.nav__btn--active{
     border-radius: 6px;
     outline: 2px solid #B8FFEC;
     
+}
+
+.nav__btn:focus { 
+    border-radius: 6px;
+    outline: 2px solid #B8FFEC;
 }
 /* Контент */
 .content{
@@ -127,7 +133,7 @@ body  {
     display: inline-block;
     content:'';
     width: 24px;
-    background-image: url(../img/arrow.svg);
+    background-image: url(img/arrow.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
