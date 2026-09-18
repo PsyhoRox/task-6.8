@@ -26,8 +26,7 @@
     transition: transform 0.3s ease-in-out;
 }
 
-
-button[class^="menu__btn"]:is(:hover, :focus, :active) {
+.menu__btn:hover, .menu__btn:focus, .menu__btn:active {
     filter: brightness(92%);
     transform: scale(1.10); 
 }
@@ -51,7 +50,7 @@ button[class^="menu__btn"]:is(:hover, :focus, :active) {
     background-image: url(../img/profile.svg);
     margin-left: auto;
 }
-.menu__header__logo {
+.menu__logo {
     display: block;
     background-image: url(../img/logo.svg);
     width: 97px;
@@ -73,13 +72,10 @@ button[class^="menu__btn"]:is(:hover, :focus, :active) {
     position: relative;
     box-sizing: border-box;
     padding: 24px 24px;
+
 }
 
-.menu__list li {
-    list-style-type: none;
-}
-
-.menu__nav__btn {
+.menu__link {
     display: inline-flex;
     background-color: transparent;
     font-size: 16px;
@@ -91,7 +87,7 @@ button[class^="menu__btn"]:is(:hover, :focus, :active) {
     cursor: pointer;
 }
 
-.menu__nav__btn--focus::before {
+.menu__link--focus::before {
     content: "";
     position: absolute;
     left: 0;
@@ -102,7 +98,7 @@ button[class^="menu__btn"]:is(:hover, :focus, :active) {
     border-bottom-right-radius: 2px;
 }
 
-.menu__nav__btn--focus, .menu__lang__text--focus {
+.menu__link--focus, .menu__lang-text--focus {
     color:#7e7e82;
 }
 
@@ -111,7 +107,7 @@ button[class^="menu__btn"]:is(:hover, :focus, :active) {
     box-sizing: border-box;
 }
 
-.menu__contact__btn {
+.menu__contact-btns {
     display: inline-flex;
     position: relative;
     gap: 16px;
@@ -119,7 +115,7 @@ button[class^="menu__btn"]:is(:hover, :focus, :active) {
     margin-left: 24px;
 }
 
-.menu_contact_email, .menu__contact__phone {
+.menu__contact-email, .menu__contact-phone {
     display: inline-flex;
     padding: 12px 24px;
     font-size: 16px;
@@ -134,7 +130,7 @@ button[class^="menu__btn"]:is(:hover, :focus, :active) {
     padding: 24px;
 }
 
-.menu__lang__text {
+.menu__lang-text {
     display: inline-block;
     gap: 7px;
     font-size: 16px;
